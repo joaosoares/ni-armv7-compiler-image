@@ -1,13 +1,14 @@
 FROM ubuntu
 
 # Workdir setup
-WORKDIR /usr/home/ubuntu
+WORKDIR /home/ubuntu
 
 # Dependencies
 RUN apt-get update -qq && apt-get install -qq -y  \
   build-essential \
   bzip2 \
-  python-pip
+  python-pip \
+  cmake
 
 # Install cross compiler
 COPY oecore-x86_64-cortexa9-vfpv3-toolchain-5.0.sh .
