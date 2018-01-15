@@ -13,4 +13,4 @@ docker build -t ni-armv7-compiler .
 And now the image has been built!
 
 ## Usage
-To see an example of how to use this image along with docker-compose to produce executables, see the project joaofrsoares/ni-armv7-docker-starter.
+To see an example of how to use this image along with docker-compose to produce executables, see the project [joaosoares/ni-armv7-docker-starter](https://github.com/joaosoares/ni-armv7-docker-starter).
